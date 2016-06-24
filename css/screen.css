@@ -17,7 +17,7 @@ time, mark, audio, video {
   font: inherit;
   font-size: 100%;
   vertical-align: baseline;
- }
+}
 
 html {
   line-height: 1;
@@ -205,7 +205,6 @@ ol li {
 }
 #body p {
   padding: .5em 0;
-  text-align: justify;
 }
 
 /* Skip to Content 
@@ -447,6 +446,14 @@ table td {
   clear: both;
 }
 
+.inline-block {
+  display: inline-block;
+  margin-top: 1.5em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 1.5em;
+}
+
 .largeButton a {
   color: white !important;
   display: block;
@@ -628,13 +635,13 @@ ul.navMenu li:last-child {
 }
 
 #leftSidebar {
-  width: 18.5%;
+  width: 23.72881%;
   float: left;
   margin-right: 1.69492%;
 }
 
 #rightSidebar {
-  width: 18.5%;
+  width: 23.72881%;
   float: right;
   margin-right: 0;
 }
@@ -672,8 +679,7 @@ ul.navMenu li:last-child {
 /* Main 
 ============================ */
 #main {
- /* width: 66.10169%; */
-  width: 58%;
+  width: 66.10169%;
   float: left;
   margin-right: 1.69492%;
 }
@@ -815,8 +821,21 @@ a.file {
   border: none;
 }
 
+.altmetric-embed {
+  display: inline-block;
+  margin-top: 1.5em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 1.5em;
+}
+
+.right {
+  float: right;
+}
+
 #articleTitle h3 {
   background-color: initial;
+  margin-top: 0;
 }
 
 .article #content {
